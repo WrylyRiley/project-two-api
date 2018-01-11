@@ -53,5 +53,20 @@
     "title": "Meow Mix",
     "motto": "Tastes So Good, Cats Ask for It by Name",
     "description": "Pet Food Manufacturer"
+  },
+  {
+    "title": "General Electric",
+    "motto": "Imagination at Work",
+    "description": "Damn near everything"
+  },
+  {
+    "title": "State Farm",
+    "motto": "Like a Good Neighbor, State Farm is There",
+    "description": "Insurance and Underwriting"
+  },
+  {
+    "title": "The U.S. Marine Corps",
+    "motto": "The Few. The Proud. The Marines.",
+    "description": "U.S. Military"
   }
 ]
