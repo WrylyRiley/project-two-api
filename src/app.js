@@ -2,7 +2,6 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 // const morgan = require('morgan')
-const index = require('./index.html')
 
 const app = express()
 
@@ -17,7 +16,7 @@ app.disable('etag')
 
 app.get('/', (req, res) => {
   // res.send({ message: 'hello from the server!' })
-  res.send(index)
+  res.send({ msg: 'Hello from the backend!' })
 })
 
 app.get('/posts', (req, res) => {
