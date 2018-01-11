@@ -2,6 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const morgan = require('morgan')
+const index = require('./index.html')
 
 const app = express()
 
@@ -15,7 +16,8 @@ app.use(cors())
 app.disable('etag')
 
 app.get('/', (req, res) => {
-  res.send({ message: 'hello from the server!' })
+  // res.send({ message: 'hello from the server!' })
+  res.send(index)
 })
 
 app.get('/posts', (req, res) => {
@@ -69,7 +71,7 @@ app.delete('/posts/:id', (req, res) => {
   }).then(res.send({ msg: 'Success' }))
 })
 
-app.set('port', process.env.PORT || 8081)
+app.set('port', process.env.PORT || 8082)
 
 app.listen(app.get('port'), () => {
   console.log(`PORT: ${app.get('port')}`)
