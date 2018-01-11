@@ -48,5 +48,10 @@
     "title": "Dunkin Donuts",
     "motto": "America Runs on Dunkin",
     "description": "Coffee and Donut chain"
+  },
+  {
+    "title": "Meow Mix",
+    "motto": "Tastes So Good, Cats Ask for It by Name",
+    "description": "Pet Food Manufacturer"
   }
 ]
