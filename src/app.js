@@ -1,14 +1,14 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const morgan = require('morgan')
+// const morgan = require('morgan')
 const index = require('./index.html')
 
 const app = express()
 
 var Posts = require('../db/models/post')
 
-app.use(morgan('combined'))
+// app.use(morgan('combined'))
 app.use(bodyParser.json())
 app.use(cors())
 
