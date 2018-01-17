@@ -1,6 +1,6 @@
 # Grading
 
-**12/15**
+**14/15**
 Your motto tracker works smoothly, looks great, and you even went above and beyond to learn a front-end framework not taught in class. Your code is well organized and easy to read. Great job! Keep up the good work!
 
 ### Technical Requirements: Excelling (3)
